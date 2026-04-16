@@ -1,42 +1,66 @@
-# Privacy Policy — Volume Booster
+**Privacy Policy — Volume Booster**
 
-**Last updated:** 6 April 2026
+Last updated: April 2026
 
-## Overview
+This Privacy Policy explains how **Volume Booster** handles your data. It is available as a Chrome extension and as a Safari Web Extension for macOS and iOS. Developed by Victor Humenhuk.
 
-Volume Booster is a Chrome extension that allows users to boost the volume of video and audio elements on any webpage beyond the normal 100% limit. This privacy policy explains how the extension handles user data.
+**In short**
 
-## Data Collection
+- No data leaves your device.
+- No tracking, no analytics, no ads.
+- Nothing is saved to disk, not even your volume settings.
 
-Volume Booster does **not** collect, store, transmit, or share any user data. Specifically, the extension does not collect:
+**What the Extension does**
 
-- Personal information (name, email, address, or any identifiers)
+Volume Booster uses the Web Audio API to amplify video and audio on the page you're viewing, beyond the normal 100% limit. All processing happens locally in your browser.
+
+**What it collects**
+
+Nothing. The Extension does not collect, store, transmit, or share:
+
+- Personal information (name, email, identifiers)
 - Browsing history or web activity
 - Authentication or financial information
 - Location data
 - Website content
-- Usage analytics or telemetry
+- Analytics or telemetry
 
-## How the Extension Works
+**Data storage**
 
-The extension uses the Web Audio API to amplify media elements on the current page. All processing occurs locally within your browser. The extension makes no external network requests and communicates with no servers.
+None persisted. Volume settings live in memory only and reset when you close or refresh the page.
 
-## Data Storage
+**Data sharing**
 
-The extension does not persist any data to disk. Volume settings are held in memory only and reset when the page is closed or refreshed.
+None. The Extension makes no external network requests and talks to no servers. No data is sold, transferred, or disclosed to any third party.
 
-## Third Parties
+**Third-party services**
 
-No user data is sold, transferred, or disclosed to any third party.
+None. No analytics, advertising, or tracking of any kind.
 
-## Permissions
+**Permissions**
 
-The extension requests host permissions (`<all_urls>`) solely to inject a content script that detects and boosts media elements on the active page. This permission is not used to read, collect, or transmit any page content or user data.
+**Chrome**
 
-## Changes to This Policy
+- Host access (`<all_urls>`): inject a content script that detects and boosts media on the active page. Not used to read, collect, or transmit page content.
 
-If this policy is updated, the revised version will be posted at this URL with an updated date.
+**Safari (macOS and iOS)**
 
-## Contact
+- Website access (all websites): same purpose as above. Safari requires you to grant this, and you can revoke or limit it to specific sites at any time in Safari settings.
 
-If you have questions about this privacy policy, contact: victor@thesmios.com
+**Apple privacy**
+
+On iOS and macOS, the Extension runs inside Apple's App Sandbox and WebExtensions security model. It does not access other apps, the clipboard, camera, microphone, location, contacts, or any other protected resource. No App Tracking Transparency disclosure is needed because no tracking occurs.
+
+**Children's privacy**
+
+The Extension does not knowingly collect data from anyone, including children under 13.
+
+**Changes**
+
+If this policy changes, the new version will appear at this URL with an updated date.
+
+**Contact**
+
+- Chrome Web Store support contact (Chrome version).
+- App Store support link (macOS and iOS versions).
+- Email: **victor@thesmios.com**
